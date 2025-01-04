@@ -3,6 +3,8 @@
 body{
     width: 100%;
     height: 100%;
+    /* background-color: #F9F1E8;
+    background-color: #CEC2B6; */
 }
 header{
     width: 100%;
@@ -32,17 +34,17 @@ header{
 }
 #menuButton span{
     /* color: red; */
-    z-index: 9;
+    /* z-index: 9; */
     grid-column-start: 1;
     grid-row-start: 1;
     border-radius: 0.3em;
-    display: block;
+    /* display: block; */
     background-color:  rgb(190, 129, 129);
     width: 2.4em;
     height: 0.28em;
     margin: 0.2em;
-    margin-left: 1em;
-    
+    margin-left: 0.3em;
+    align-self: center;
 }
 #menuButton span:first-of-type{
     transform: translateY(-0.4em);
@@ -63,36 +65,42 @@ header{
 #menuButton.navOpen span:first-of-type{
     transform: rotate(45deg) translateY(0) scalex(1.25) scale(0.7);
     /* transform: rotate(45deg) scalex(1.25) scale(0.7); */
+    /* margin-right: 0.3em; */
+
 }
 
 #menuButton.navOpen span:last-of-type{
     transform: rotate(-45deg) translateY(0) scalex(1.25) scale(0.7);
     /* transform: rotate(-45deg) scalex(1.25) scale(0.7); */
+    /* margin-right: 0.3em; */
+
 }
 
 header nav.toonMenu {
-	transform: translateY(0);
+	transform: translateY(0em);
     visibility: visible; /* Maakt het menu zichtbaar */
 	border-radius: 0;
+    /* height: auto; */
 }
 header nav {
     width: 6em;
     height: auto;
 	display: flex;
 	flex-direction: column;
-	/* justify-content: space-between; */
 	align-items: center;	
 	transform: translateY(-100%);
-    transition: transform 1s ease; /* Zorgt voor een vloeiende overgang */
-	/* transition: 1s; */
-    visibility: hidden; /* Verbergt het menu visueel */
-    /* gap: 4em; */
-	/* Z-index: 1000; */
-	/* background-color: rgb(181, 138, 138); */
-	/* height: 2em; */ 
+    transition: transform 1s ease; 
+    /* Zorgt voor een vloeiende overgang */
+    visibility: hidden; 
+    /* Verbergt het menu visueel */
     position: absolute;
     top: 0.73em;
     left: -2em;
+    /* transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out; */
+
+    
+
+
     
 }
 
@@ -104,22 +112,23 @@ header nav ul{
     list-style: none;
     padding: 0;
     gap: 0.2em;
-    /* position:unset; */
+    position: relative;
 
 }
 header nav ul li{
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 3.5em;
     height: 3.5em;
     background-color: rgb(190, 129, 129);
     border-radius: 50%;
     /* align-self: center; */
-
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
 }
 header nav ul li a{
 display: flex;
@@ -182,11 +191,12 @@ main section:first-of-type img{
     height:auto;
     order: -1;
     align-self: center;
-    margin-left: 3.7em;
+    /* margin-left: 3.7em; */
     margin-top: 4em;
+    margin-right: 0;
 
     position: relative;
-    left: 3em;
+    left: 2em;
 
     /* margin-top: 3em; */
 
