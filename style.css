@@ -367,12 +367,12 @@ main section:nth-of-type(4){
 }
 main section:nth-of-type(4) ul li h3{
     font-family: "Cagliostro", serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
-    order: -1;
+    order: 1;
 }
 main section:nth-of-type(4) ul{
-    background-color: #b5ada0;
+    /* background-color: #b5ada0; */
     width: 100%;
     padding: 0;
     height: fit-content;
@@ -381,6 +381,7 @@ main section:nth-of-type(4) ul{
     justify-content: center;
     align-items: center;
     gap: 1.5em;
+    /* margin: 2em; */
 }
 
 main section:nth-of-type(4) ul li{
@@ -390,22 +391,77 @@ main section:nth-of-type(4) ul li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1.5em;
+    /* padding: 1em; */
 
 }
 main section:nth-of-type(4) ul li p{
-    order: 1;
+    /* order: 1; */
     text-align: center;
+    font-size: 1.5em;
+    /* word-spacing: 0.1em; */
+    /* letter-spacing: 0.06em; */
     font-family: "Cagliostro", serif;
+    order: 3;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 
 }
-/* main section:nth-of-type(4) ul li img{
-    order: -2;
-} */
+main section:nth-of-type(4) ul li img{
+    order: 2; 
+}
+
+main section:nth-of-type(4) ul li ul:first-of-type{
+    /* background-color: #8a0d0d; */
+    /* order: 1; */
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    order: 4;
+    
+
+}
+main section:nth-of-type(4) ul li ul:first-of-type li{
+    width: 4em;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    background-color: #fbf9f9;
+    border-radius: 20%;
+    /* box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25); */
+    font-weight: 300;
+    font-size: 1em;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 
 
 
+}
+main section:nth-of-type(4) ul li ul:nth-of-type(2){
+    /* background-color: #ae5802; */
+    /* order: 1; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    order: 5;
+}
+main section:nth-of-type(4) ul li ul:nth-of-type(2) li{
+    background-color: #b6b2bc;
+    width: 4em;
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    background-color: #fbf9f9;
+    border-radius: 20%;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    font-weight: 300;
+    font-size: 1em;
+    font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
 
-
+}
+main section:nth-of-type(4) ul li ul:nth-of-type(2) li a{
+    color: #09299c;
+}
 
 
 
