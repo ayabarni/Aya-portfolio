@@ -545,7 +545,7 @@ main section:nth-of-type(5) div{
     /* background-color: #cec8be; */
     background-color: #F9F1E8;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
-    width: 22em;
+    width: 19.4em;
     height: 12em;
     margin: 0.5em auto 2em auto;
     display: flex;
@@ -730,6 +730,10 @@ footer p{
         background-color:#F9F1E8;
 
     }
+    main section:nth-of-type(5) div{
+        width: 22em;
+
+    }
    footer{
     position: relative;
     z-index: 100000;
@@ -737,6 +741,7 @@ footer p{
     margin-left: 6em;
     box-shadow: none;
    }
+   
 
 
 }
