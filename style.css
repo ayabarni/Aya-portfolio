@@ -149,6 +149,7 @@ header nav ul li{
     width: 3.5em;
     height: 3.5em;
     background-color: rgb(190, 129, 129);
+    background-color: #D1A18C;
     border-radius: 50%;
     /* align-self: center; */
     transition-duration: 0.5s;
@@ -445,7 +446,7 @@ main section:nth-of-type(4) > ul > li{
 main section:nth-of-type(4) ul li p{
     /* order: 1; */
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
     /* word-spacing: 0.1em; */
     /* letter-spacing: 0.06em; */
     /* font-family: "Cagliostro", serif; */
@@ -492,9 +493,12 @@ main section:nth-of-type(4) ul li ul:first-of-type li{
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
     font-weight: 300;
     font-size: 1em;
-    padding: 0.5em;
+    padding: 0.2em;
     font-family:'Jost', sans-serif;
-    font-weight: 400;
+    /* font-weight: 400; */
+    font-weight: 500;
+
+    margin-bottom: 1em;
     ;
     /* font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif; */
 
@@ -524,56 +528,73 @@ main section:nth-of-type(4) ul li ul:nth-of-type(2) li{
     align-items: center;
     background-color: #fbf9f9;
     border: #09299c;
-    border-radius: 1em;
-    
+    border-radius: 1em; 
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0em 0em 0.2em 0.2em #D1A18C;
-
     font-weight: 300;
     font-size: 1em;
     font-family:'Jost', sans-serif;
     font-weight: 400;
+    margin-bottom: 1em;
     
 
     /* font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif; */
 
 }
 main section:nth-of-type(4) ul li > ul:nth-of-type(2) li > a{
-    color: #09299c;
-
-    
+    color: #a37d6d;
 
 }
+main section:nth-of-type(5){
+    width: 100%;
+    height: fit-content;
+    padding: 1em 2em;
+}
+main section:nth-of-type(5) p{
+   text-align: center;
+   font-family: "Cagliostro", serif;
+   font-size: 1.4em;
+   color: rgb(190, 129, 129);
+   font-weight: bold;
+}
+main section:nth-of-type(5) div{
+    /* background-color: #cec8be; */
+    background-color: #F9F1E8;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    height: 12em;
+    margin: 0.5em auto 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    border-radius: 1em;
+}
+main section:nth-of-type(5) div svg{
+    width: 4.5em;
+    height: auto;
+    color: rgb(190, 129, 129);
+    /* box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25); */
 
+    /* border: #2a2722; */
+}
+main section:nth-of-type(5) div a{
+    color:rgb(190, 129, 129);
+    color: #a37d6d;
+    font-weight: bold;
+    font-family: "Cagliostro", serif;
+}
+footer{
+    width: 100%;
+    height: fit-content;
+    padding: 1em 2em;
+    background-color: #959bb3;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer p{
+    text-align: center;
+}
 
 @media (min-width: 1028px) {
     /* header{
@@ -592,8 +613,9 @@ main section:nth-of-type(4) ul li > ul:nth-of-type(2) li > a{
         top: 0;
         height: 100%;
         width: 8em; /* Breedte van de zijbalk */
-        background-color: #655E53;
-        background-color:  #CEC2B6;
+        /* background-color: #655E53;
+        background-color:  #CEC2B6; */
+        background-color: #F9F1E8;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -730,23 +752,5 @@ main section:nth-of-type(4) ul li > ul:nth-of-type(2) li > a{
         background-color: #b6b2bc;
     }
    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
