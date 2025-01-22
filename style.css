@@ -628,11 +628,12 @@ footer p{
         /* transition: background-color 0.3s ease; */
     }
 
-    header nav ul li a:hover {
-        background-color: #b6b2bc; /* Hoverkleur */
-        width: 3.5em;
-        height: 1em;
-        border-radius: 50%;
+    header nav ul li:hover {
+        background-color: #b6b2bc;
+        background-color: rgb(190, 129, 129); 
+        /* width: 3em;
+        height: 3em; */
+        /* border-radius: 50%; */
     }
     .index-Nav svg {
         width: 1.8em;
@@ -660,6 +661,10 @@ footer p{
     main section:first-of-type div{
         width: 40em;
     }
+    main section:first-of-type div ul li:hover{
+        background-color: rgb(190, 129, 129);
+    }
+
 
     main section:first-of-type div h1{
         margin: 0;
