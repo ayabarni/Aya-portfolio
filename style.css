@@ -139,8 +139,8 @@ header nav ul li{
     align-items: center;
     width: 3.5em;
     height: 3.5em;
-    background-color: rgb(190, 129, 129);
-    background-color: #D1A18C;
+    /* background-color: rgb(190, 129, 129); */
+    background-color: #fbf9f9;
     border-radius: 50%;
     /* align-self: center; */
     transition-duration: 0.5s;
@@ -149,6 +149,7 @@ header nav ul li{
     transition-property: all;
     margin-bottom: 0.5em;
     box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.25);
+    box-shadow:0em 0em 0.2em 0.2em #D1A18C;
 
 }
 header nav ul li a{
@@ -171,6 +172,7 @@ align-items: center;
     width: 2.6em;
     height: 2.6em;
     color: aliceblue;
+    color: rgb(209, 161, 140);
     align-self: center;
 
 
@@ -590,7 +592,7 @@ footer p{
         transform: translate(0);
         transition: none;
         visibility: visible;
-        overflow: hidden;
+        /* overflow: hidden; */
         position: relative;
         top: auto;
 
