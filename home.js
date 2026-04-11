@@ -8,4 +8,4 @@ function toggleIndexMenu() {
     Navbar.classList.toggle("toonMenu");
     openButton.classList.toggle("navOpen");
 }
-toggleIndexMenu();
+// toggleIndexMenu();
